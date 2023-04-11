@@ -1,0 +1,94 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+rx_buffer                                                                         0x01F1       8
+tx_buffer                                                                         0x01F9       8
+hc05                                                                              0x0201      20
+ki_tu                                                                             0x0215       1
+so_tb                                                                             0x0216       1
+vi_tri                                                                            0x0217       6
+vi_tri_cai_dat                                                                    0x021D       1
+m                                                                                 0x021E       1
+test                                                                              0x021F      12
+gio_cd                                                                            0x022B       1
+phut_cd                                                                           0x022C       1
+giay_cd                                                                           0x022D       1
+thu_cd                                                                            0x022E       1
+ngay_cd                                                                           0x022F       1
+thang_cd                                                                          0x0230       1
+nam_cd                                                                            0x0231       1
+gio                                                                               0x0232       1
+phut                                                                              0x0233       1
+giay                                                                              0x0234       1
+thu                                                                               0x0235       1
+ngay                                                                              0x0236       1
+thang                                                                             0x0237       1
+nam                                                                               0x0238       1
+chuoi                                                                             0x0239      20
+da_nhan_trai                                                                      0x024D       1
+da_nhan_phai                                                                      0x024E       1
+da_nhan_tang                                                                      0x024F       1
+da_nhan_giam                                                                      0x0250       1
+adc_data                                                                          0x0251       2
+_base_y                                                                           0x0253       4
+_lcd_x                                                                            0x0257       1
+_lcd_y                                                                            0x0258       1
+_lcd_maxx                                                                         0x0259       1
+_seed                                                                             0x025A       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+rx_wr_index                                                                       R5           1
+rx_rd_index                                                                       R4           1
+rx_counter                                                                        R7           1
+rx_buffer_overflow                                                                R2.0      1bit
+tx_wr_index                                                                       R6           1
+tx_rd_index                                                                       R9           1
+tx_counter                                                                        R8           1
+nhiet_do                                                                          R10,R11      2
+ck                                                                                R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+usart_rx_isr                                                                      0x00100     31
+getchar                                                                           0x0011F     19
+usart_tx_isr                                                                      0x00132     23
+putchar                                                                           0x00149     26
+giaotiep_hc05                                                                     0x00163    223
+hieuchinh_ngaygio                                                                 0x00242    175
+xu_ly_nut                                                                         0x002F1    619
+hien_thi_chuoi                                                                    0x0055C     35
+kiem_tra_nut_nhan                                                                 0x0057F     24
+adc_isr                                                                           0x00597     11
+hienthi_nhietdo                                                                   0x005B6     55
+main                                                                              0x005ED    191
+strcpyf                                                                           0x006AC     13
+strlen                                                                            0x006B9     12
+strlenf                                                                           0x006C5     13
+put_buff_G101                                                                     0x006D2     58
+_ftoe_G101                                                                        0x0070C    210
+_print_G101                                                                       0x007DE    538
+sprintf                                                                           0x009F8     52
+rtc_init                                                                          0x00A2C     25
+rtc_get_time                                                                      0x00A45     25
+rtc_set_time                                                                      0x00A5E     13
+rtc_get_date                                                                      0x00A6B     27
+rtc_set_date                                                                      0x00A86     17
+_lcd_write_nibble_G103                                                            0x00A97     20
+_lcd_write_data                                                                   0x00AAB     12
+lcd_gotoxy                                                                        0x00AB7     17
+lcd_clear                                                                         0x00AC8     14
+lcd_putchar                                                                       0x00AD6     32
+lcd_puts                                                                          0x00AF6     17
+lcd_init                                                                          0x00B07     47
+ftrunc                                                                            0x00B36     49
+floor                                                                             0x00B67     23
+ftoa                                                                              0x00B7E    194
+bcd2bin                                                                           0x00C40     13
+bin2bcd                                                                           0x00C4D     10

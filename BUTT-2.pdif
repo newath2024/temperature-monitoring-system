@@ -1,0 +1,166 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "BUTT2"
+      (family "SWI")
+      (package "SW_BUTT2")
+      (description "Tactile_Switches_MINI_PUSH_BUTTON_SWITCH_2-PIN_QTY._4_")
+      (attribute "PKG_TYPE" "SW_BUTT2")
+      (attribute "MANUFACTURER" "Gravitech")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "9.5_mm")
+      (attribute "STANDARD" "Manufactrer_Recommendations")
+      (attribute "PARTREV" "N/A")
+      (gate
+        (swap 1)
+        (symbol "BUTT2")
+        (pin "1" 1 (type PS))
+        (pin "2" 2 (type PS))
+      )
+    )
+    (symbol "BUTT2"
+      (units THOU)
+      (graphic
+        (stroke 6.0)
+        (fill NONE)
+        (circle (pt 61.25 0) (pt 101.25 0))
+      )
+      (graphic
+        (stroke 6.0)
+        (fill NONE)
+        (circle (pt -101.25 0) (pt -61.25 0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt -100.0 62.5) (pt 0.0 62.5))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 0.0 62.5) (pt 100.0 62.5))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt 0.0 62.5) (pt 0.0 137.5))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -300.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 300.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -200.0 0.0))
+      )
+    )
+    (package "SW_BUTT2"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -118.11 118.11) (pt 118.11 118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 118.11 118.11) (pt 118.11 42.32))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 118.11 -42.32) (pt 118.11 -118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 118.11 -118.11) (pt -118.11 -118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -118.11 -118.11) (pt -118.11 -42.32))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -118.11 42.32) (pt -118.11 118.11))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -153.54 0) (pt -145.67 0))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -118.11 118.11) (pt -118.11 -118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -118.11 -118.11) (pt 118.11 -118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 118.11 -118.11) (pt 118.11 118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 118.11 118.11) (pt -118.11 118.11))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -153.54 0) (pt -145.67 0))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -137.95 127.95) (pt 137.95 127.95))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 137.95 127.95) (pt 137.95 -127.95))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 137.95 -127.95) (pt -137.95 -127.95))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -137.95 -127.95) (pt -137.95 127.95))
+        )
+      )
+      (leg 1 (pt -98.43 0) (padstack 1))
+      (leg 2 (pt 98.43 0) (padstack 2))
+      (padstack 1
+        (hole 39)
+        (plated true)
+        (pad (layer TCOP) (round 59.37))
+        (pad (layer INNER) (round 59.37))
+        (pad (layer BCOP) (round 59.37))
+        (pad (layer TRES) (round 29.69))
+        (pad (layer BRES) (round 29.69))
+      )
+      (padstack 2
+        (hole 39)
+        (plated true)
+        (pad (layer TCOP) (round 59.37))
+        (pad (layer INNER) (round 59.37))
+        (pad (layer BCOP) (round 59.37))
+        (pad (layer TRES) (round 29.69))
+        (pad (layer BRES) (round 29.69))
+      )
+    )
+  )
+)

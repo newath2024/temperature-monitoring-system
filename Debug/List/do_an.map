@@ -1,0 +1,60 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+nhiet_do                                                                          0x0160       4
+vi_tri                                                                            0x0164       6
+test                                                                              0x016A      12
+chuoi1                                                                            0x0176       6
+chuoi2                                                                            0x017C       6
+chuoi3                                                                            0x0182       6
+chuoi                                                                             0x0188      20
+da_nhan_trai                                                                      0x019C       1
+da_nhan_phai                                                                      0x019D       1
+da_nhan_tang                                                                      0x019E       1
+da_nhan_giam                                                                      0x019F       1
+adc_data                                                                          0x01A0       2
+_base_y                                                                           0x01A2       4
+_lcd_x                                                                            0x01A6       1
+_lcd_y                                                                            0x01A7       1
+_lcd_maxx                                                                         0x01A8       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+vi_tri_cai_dat                                                                    R5           1
+m                                                                                 R4           1
+gio_cd                                                                            R7           1
+phut_cd                                                                           R6           1
+giay_cd                                                                           R9           1
+thu_cd                                                                            R8           1
+ngay_cd                                                                           R11          1
+thang_cd                                                                          R10          1
+nam_cd                                                                            R13          1
+gio                                                                               R12          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+adc_isr                                                                           0x00081     11
+hienthi_nhietdo                                                                   0x000A0     68
+main                                                                              0x000E4     91
+strlen                                                                            0x0013F     12
+strlenf                                                                           0x0014B     13
+put_buff_G101                                                                     0x00158     64
+_print_G101                                                                       0x00198    308
+sprintf                                                                           0x002CC     52
+rtc_init                                                                          0x00300     25
+rtc_set_time                                                                      0x00319     13
+rtc_set_date                                                                      0x00326     17
+_lcd_write_nibble_G103                                                            0x00337     20
+_lcd_write_data                                                                   0x0034B     12
+lcd_gotoxy                                                                        0x00357     17
+lcd_clear                                                                         0x00368     14
+lcd_putchar                                                                       0x00376     32
+lcd_puts                                                                          0x00396     17
+lcd_init                                                                          0x003A7     47
+bin2bcd                                                                           0x003D6     10

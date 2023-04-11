@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=SCK Pin=JP4-1
+Removed Pin From Net: NetName=MISO Pin=JP4-2
+Removed Pin From Net: NetName=MOSI Pin=JP4-3
+Removed Pin From Net: NetName=SS Pin=JP4-4
+Removed Pin From Net: NetName=PB3 Pin=JP4-5
+Removed Pin From Net: NetName=PB2 Pin=JP4-6
+Removed Pin From Net: NetName=PB1 Pin=JP4-7
+Removed Pin From Net: NetName=PB0 Pin=JP4-8
+Removed Member From Class: ClassName=SCHE_Doan2 Member=JP4
+Added Component: Designator=JP?(JP 1x8 CT)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH004006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Jump Ðon Cái 2.54MM 1x20P Th?ng"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SCK Pin=JP?-1
+Added Pin To Net: NetName=MISO Pin=JP?-2
+Added Pin To Net: NetName=MOSI Pin=JP?-3
+Added Pin To Net: NetName=SS Pin=JP?-4
+Added Pin To Net: NetName=PB3 Pin=JP?-5
+Added Pin To Net: NetName=PB2 Pin=JP?-6
+Added Pin To Net: NetName=PB1 Pin=JP?-7
+Added Pin To Net: NetName=PB0 Pin=JP?-8
+Added Member To Class: ClassName=SCHE_Doan2 Member=Component IC? ATMEL 16A
+Added Member To Class: ClassName=SCHE_Doan2 Member=Component JP? JP 1x8 2.54

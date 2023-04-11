@@ -1,0 +1,4 @@
+Added Component: Designator=IC?(TQFP44)
+Add component (AddParameter): Name = "Creat by"; Value = "MT-Tech.vn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Atmega 16L"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=SCHE_Doan2 Member=Component IC? ATMEL 16A
